@@ -3,7 +3,7 @@ const common_vendor = require("../../../../common/vendor.js");
 const uvForm = () => "../u-form/u-form.js";
 const _sfc_main = {
   name: "u-form",
-  mixins: [common_vendor.mpMixin, common_vendor.props$3, common_vendor.mixin],
+  mixins: [common_vendor.mpMixin, common_vendor.props$5, common_vendor.mixin],
   components: {
     uvForm
   },

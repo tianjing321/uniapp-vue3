@@ -4555,8 +4555,10 @@ if (uni.restoreGlobal) {
   const _sfc_main$e = {
     __name: "phoneLogin",
     setup(__props) {
+      const { proxy } = vue.getCurrentInstance();
       vue.onMounted(() => {
-        formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:35", uCode, "uCode");
+        formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:38", uCode, "uCode");
+        formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:39", proxy.uForm, "==============proxy");
       });
       vue.ref();
       const model1 = vue.reactive({
@@ -4593,9 +4595,9 @@ if (uni.restoreGlobal) {
       });
       const uForm = vue.ref();
       const submit = (form) => {
-        formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:73", model1, "表单");
+        formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:77", model1, "表单");
         form.validate().then((res) => {
-          formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:75", res);
+          formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:79", res);
           uni.$u.toast("校验通过");
         }).catch((errors) => {
           uni.$u.toast("校验失败");
@@ -4605,11 +4607,11 @@ if (uni.restoreGlobal) {
       const seconds = vue.ref(10);
       const uCode = vue.ref();
       const codeChange = (text) => {
-        formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:87", text, "输出文字");
+        formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:91", text, "输出文字");
         tips = text;
       };
       const getCode = (codeForm) => {
-        formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:91", uCode);
+        formatAppLog("log", "at pages/phoneLogin/phoneLogin.vue:95", uCode);
         uni.showLoading({
           title: "正在获取验证码"
         });
@@ -5832,13 +5834,15 @@ if (uni.restoreGlobal) {
   const _sfc_main$5 = {
     __name: "login",
     setup(__props) {
+      const { proxy } = vue.getCurrentInstance();
+      formatAppLog("log", "at pages/login/login.vue:30", proxy, "proxy");
       const show = vue.ref(true);
       const getuserinfo = (res) => {
         uni.getUserProfile({
           //用户实名信息，每次都弹出授权请求
           provider: "weixin",
           success: function(infoRes) {
-            formatAppLog("log", "at pages/login/login.vue:34", infoRes.userInfo, "用户信息");
+            formatAppLog("log", "at pages/login/login.vue:38", infoRes.userInfo, "用户信息");
             uni.setStorage({
               key: "userInfo",
               data: infoRes.userInfo
@@ -5848,7 +5852,7 @@ if (uni.restoreGlobal) {
             });
           },
           fail: (error2) => {
-            formatAppLog("log", "at pages/login/login.vue:47", "getUserInfo fail", error2);
+            formatAppLog("log", "at pages/login/login.vue:51", "getUserInfo fail", error2);
             let content = error2.errMsg;
             if (~content.indexOf("uni.login")) {
               content = "请在登录页面完成登录操作";
@@ -5863,7 +5867,7 @@ if (uni.restoreGlobal) {
       };
       const pushPhoneLogin = (res) => {
         uni.navigateTo({ url: "/pages/phoneLogin/phoneLogin" });
-        formatAppLog("log", "at pages/login/login.vue:62", res, "跳转去手机登录");
+        formatAppLog("log", "at pages/login/login.vue:66", res, "跳转去手机登录");
       };
       return (_ctx, _cache) => {
         const _component_u__image = resolveEasycom(vue.resolveDynamicComponent("u--image"), __easycom_0$1);

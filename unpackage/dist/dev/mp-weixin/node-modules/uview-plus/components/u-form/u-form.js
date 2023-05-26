@@ -4,7 +4,7 @@ common_vendor.Schema.warning = function() {
 };
 const _sfc_main = {
   name: "u-form",
-  mixins: [common_vendor.mpMixin, common_vendor.mixin, common_vendor.props$3],
+  mixins: [common_vendor.mpMixin, common_vendor.mixin, common_vendor.props$5],
   provide() {
     return {
       uForm: this

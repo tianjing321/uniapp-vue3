@@ -3,7 +3,7 @@ const common_vendor = require("../../../../common/vendor.js");
 const uvImage = () => "../u-image/u-image.js";
 const _sfc_main = {
   name: "u--image",
-  mixins: [common_vendor.mpMixin, common_vendor.props$4, common_vendor.mixin],
+  mixins: [common_vendor.mpMixin, common_vendor.props, common_vendor.mixin],
   components: {
     uvImage
   },

@@ -14,7 +14,7 @@
 /* uni.scss */
 @import 'uview-plus/theme.scss';
 // 自定义全局
-
+// 颜色
 .contanier{
 	padding:50rpx 50rpx ;
 	// background: #c0c0c0;
@@ -53,6 +53,9 @@ font-size: 16rpx;
 }
 .margin_bot30{
 	margin-bottom: 30rpx;
+}
+.margin_left15{
+	margin-left: 15rpx;
 }
 // 位置
 .textalign_center{
@@ -111,7 +114,6 @@ font-size: 16rpx;
 	line-height: 36rpx;
 }
 /* 颜色变量 */
-
 /* 行为相关颜色 */
 $uni-color-primary: #007aff;
 $uni-color-success: #4cd964;

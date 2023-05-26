@@ -46,6 +46,9 @@
 .margin_bot30.data-v-74921bef {
   margin-bottom: 30rpx;
 }
+.margin_left15.data-v-74921bef {
+  margin-left: 15rpx;
+}
 .textalign_center.data-v-74921bef {
   text-align: center;
 }

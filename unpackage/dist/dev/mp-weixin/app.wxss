@@ -123,6 +123,9 @@
 .margin_bot30 {
   margin-bottom: 30rpx;
 }
+.margin_left15 {
+  margin-left: 15rpx;
+}
 .textalign_center {
   text-align: center;
 }

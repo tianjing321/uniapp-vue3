@@ -15,6 +15,8 @@ if (!Math) {
 const _sfc_main = {
   __name: "login",
   setup(__props) {
+    const { proxy } = common_vendor.getCurrentInstance();
+    console.log(proxy, "proxy");
     const show = common_vendor.ref(true);
     const getuserinfo = (res) => {
       common_vendor.index.getUserProfile({

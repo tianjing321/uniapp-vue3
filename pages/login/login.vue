@@ -22,8 +22,12 @@
 
 <script setup>
 	import {
-		ref
+		ref,
+		getCurrentInstance
 	} from 'vue'
+	const {proxy} = getCurrentInstance()
+	 
+	console.log(proxy,"proxy")
 	const show = ref(true)
 	const getuserinfo = (res) => {
 		// console.log(res,"输出用户信息")

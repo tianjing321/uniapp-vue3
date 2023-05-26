@@ -2,7 +2,7 @@
 const common_vendor = require("../../../../common/vendor.js");
 const _sfc_main = {
   name: "u-code",
-  mixins: [common_vendor.mpMixin, common_vendor.mixin, common_vendor.props$6],
+  mixins: [common_vendor.mpMixin, common_vendor.mixin, common_vendor.props$3],
   data() {
     return {
       secNum: this.seconds,

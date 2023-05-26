@@ -2,9 +2,11 @@
   "navigationBarTitleText": "手机号登录",
   "enablePullDownRefresh": false,
   "usingComponents": {
-    "u-button": "../../node-modules/uview-plus/components/u-button/u-button",
+    "u--image": "../../node-modules/uview-plus/components/u--image/u--image",
     "u--input": "../../node-modules/uview-plus/components/u--input/u--input",
     "u-form-item": "../../node-modules/uview-plus/components/u-form-item/u-form-item",
+    "u-code": "../../node-modules/uview-plus/components/u-code/u-code",
+    "u-button": "../../node-modules/uview-plus/components/u-button/u-button",
     "u--form": "../../node-modules/uview-plus/components/u--form/u--form"
   }
 }

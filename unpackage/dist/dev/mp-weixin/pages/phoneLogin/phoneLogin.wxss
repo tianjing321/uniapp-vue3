@@ -46,6 +46,9 @@
 .margin_bot30 {
   margin-bottom: 30rpx;
 }
+.margin_left15 {
+  margin-left: 15rpx;
+}
 .textalign_center {
   text-align: center;
 }
@@ -102,4 +105,12 @@
 /* 文章场景相关 */
 .wrap {
   width: 240rpx;
+  height: auto;
+}
+.u-code-block {
+  color: #f0ad4e;
+}
+.logo-block {
+  display: flex;
+  justify-content: space-around;
 }
