@@ -1,0 +1,1 @@
+<view class="content"><u-button wx:if="{{a}}" u-i="b2ebeede-0" bind:__l="__l" u-p="{{a}}"></u-button><view class="iconfont icon-chongwu font36"></view><view class="text-area"><text class="font36">{{b}}</text></view><view><text class="font16">{{c}}</text></view></view>

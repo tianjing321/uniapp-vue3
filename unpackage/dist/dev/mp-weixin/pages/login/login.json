@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "登录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u--image": "../../node-modules/uview-plus/components/u--image/u--image",
+    "u-button": "../../node-modules/uview-plus/components/u-button/u-button",
+    "u-modal": "../../node-modules/uview-plus/components/u-modal/u-modal"
+  }
+}

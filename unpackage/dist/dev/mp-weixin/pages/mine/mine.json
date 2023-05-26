@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人主页",
+  "usingComponents": {
+    "u-toast": "../../node-modules/uview-plus/components/u-toast/u-toast",
+    "u-button": "../../node-modules/uview-plus/components/u-button/u-button"
+  }
+}
